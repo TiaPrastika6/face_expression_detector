@@ -19,8 +19,6 @@ class ExpressionScannerPage extends StatefulWidget {
 
 class _ExpressionScannerPageState extends State<ExpressionScannerPage>
     with WidgetsBindingObserver {
-  // Makin kecil makin cepat, tapi HP makin berat.
-  // 900 = deteksi sekitar 1 kali per 0.9 detik.
   static const int detectionIntervalMs = 900;
 
   final YoloService _yoloService = YoloService();
